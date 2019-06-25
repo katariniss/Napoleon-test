@@ -1,0 +1,40 @@
+@font-face {
+    font-weight: normal;
+    font-family: "Circle";
+    font-style: normal;
+    src: url("fonts/Circe-Regular.ttf") format("ttf");
+    font-display: swap;
+  }
+  
+@font-face {
+    font-weight: bold;
+    font-family: "Circle";
+    font-style: normal;
+    src: url("fonts/Circe-Bold.ttf") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+    font-display: swap;
+}
+
+body {
+    width: 1923px;
+    margin: 0;
+    padding: 0;
+    font-family: "Circle", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
