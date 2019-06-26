@@ -60,7 +60,8 @@ ul {
     text-transform: uppercase;
     font-weight: bold;
     padding-left: 14px;
-    letter-spacing: 1.5px
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
 }
 
 .main-nav__item {
@@ -73,22 +74,136 @@ ul {
     position: relative;
 }
 
-.main-nav__item::after {
+.main-nav__item--active::after {
       content: "";
 
       position: absolute;
       right: 0;
-      bottom: -3px;
+      bottom: 1px;
       left: 0;
-
       height: 3px;
-
       background: #e84e33;
-
       transform: skew(30deg);
 }
 
 .main-nav__search {
     margin-top: 30px;
 }
+
+.teaser {
+    background-image: url(img/teaser.jpg);
+    height: 647px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recommendations__container {
+    background-image: url(img/background-pattern.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recommendations__wrapper {
+    display: flex;
+    width: 738px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
+
+.recommendations__wrapper h2 {
+    font-size: 45px;
+    font-weight: lighter;
+    line-height: 47px;
+    margin-top: 0;
+    margin-right: 82px;
+}
+
+.recommendations__wrapper p {
+    margin-top: 6px;
+}
+
+.recommendations__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 215px;
+    padding-bottom: 230px;
+    width: 1121px;
+}
+
+.recommendations__item {
+    width: 250px;
+    height: 330px;
+    background-color: #fff;
+}
+
+.recommendations__picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .recommendations__card {
+    position: relative;
+} */
+
+.recommendations__inner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommendations__button {
+    margin-right: 18px;
+    font-size: 20px;
+}
+
+.recommendations__card--logo .recommendations__picture {
+    width: 147px;
+    height: 165px;
+    margin-top: -27px;
+    margin-bottom: 62px;
+}
+
+.recommendations__card--colour .recommendations__picture {
+    width: 189px;
+    height: 191px;
+    margin-top: -34px;
+    margin-bottom: 48px;
+}
+
+.recommendations__card--fonts .recommendations__picture {
+    width: 166px;
+    height: 152px;
+    margin-top: -13px;
+    margin-bottom: 63px;
+}
+
+.recommendations__card--source .recommendations__picture {
+    width: 198px;
+    height: 169px;
+    margin-top: -28px;
+    margin-bottom: 63px;
+}
+
+.recommendations__name {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 25px;  
+}
+
+.recommendations__text {
+    padding: 0 25px; 
+}
+
+/* .recommendations__arrow {
+    position: absolute;
+    top: 230px;
+    left: 207px;
+} */
 

@@ -71,43 +71,63 @@
     </div>
     <main class="main">
         <section class="recommendations">
-            <h2>Рекомендации и исходники</h2>
-            <p>Привет! На этом сайте ты найдешь всю необходимую информацию, чтобы создать новый макет с рекомендациями
-                или скачать существующий. Удачи!</p>
-            <ul class="recommendations__list">
-                <li class="recommendations__item">
-                    <div class="recommendations__card">
-                        <img class="recommendations__picture" src="img/logo-section.png">
-                        <h3 class="recommendations__name">Логотип</h3>
-                        <p class="recommendations__text">Правила использования, версии для скачивания</p>
-                        <button class="recommendations__arrow">&rarr;</button>
-                    </div>
-                </li>
-                <li class="recommendations__item">
-                    <div class="recommendations__card">
-                        <img class="recommendations__picture" src="img/colour-section.png">
-                        <h3 class="recommendations__name">Цвет</h3>
-                        <p class="recommendations__text">Описание и правила использования</p>
-                        <button class="recommendations__arrow">&rarr;</button>
-                    </div>
-                </li>
-                <li class="recommendations__item">
-                    <div class="recommendations__card">
-                        <img class="recommendations__picture" src="img/fonts-section.png">
-                        <h3 class="recommendations__name">Шрифты</h3>
-                        <p class="recommendations__text">Схемы и типографика, работа с текстом</p>
-                        <button class="recommendations__arrow">&rarr;</button>
-                    </div>
-                </li>
-                <li class="recommendations__item">
-                    <div class="recommendations__card">
-                        <img class="recommendations__picture" src="img/source-section.png">
-                        <h3 class="recommendations__name">Исходники</h3>
-                        <p class="recommendations__text">Исходные макеты для изменения и информацииы</p>
-                        <button class="recommendations__arrow">&rarr;</button>
-                    </div>
-                </li>
-            </ul>
+            <div class="recommendations__wrapper">
+                <h2>Рекомендации и исходники</h2>
+                <p>Привет! На этом сайте ты найдешь всю необходимую информацию, чтобы создать новый макет с
+                    рекомендациями
+                    или скачать существующий. Хорошего дня!</p>
+            </div>
+            <div class="recommendations__container">
+                <ul class="recommendations__list">
+                    <li class="recommendations__item">
+                        <div class="recommendations__card recommendations__card--logo">
+                            <img class="recommendations__picture" src="img/logo-section.png">
+                            <div class="recommendations__inner-container">
+                                <h3 class="recommendations__name">Логотип</h3>
+                                <span class="recommendations__button">
+                                    <button class="recommendations__arrow">&rarr;</button>
+                                </span>
+                            </div>
+                            <p class="recommendations__text">Правила использования, версии для скачивания</p>
+                        </div>
+                    </li>
+                    <li class="recommendations__item">
+                        <div class="recommendations__card recommendations__card--colour">
+                            <img class="recommendations__picture" src="img/colour-section.png">
+                            <div class="recommendations__inner-container">
+                                <h3 class="recommendations__name">Цвет</h3>
+                                <span class="recommendations__button">
+                                    <button class="recommendations__arrow">&rarr;</button>
+                                </span>
+                            </div>
+                            <p class="recommendations__text">Описание и правила использования</p>
+                        </div>
+                    </li>
+                    <li class="recommendations__item">
+                        <div class="recommendations__card recommendations__card--fonts">
+                            <img class="recommendations__picture" src="img/fonts-section.png">
+                            <div class="recommendations__inner-container">
+                                <h3 class="recommendations__name">Шрифты</h3>
+                                <span class="recommendations__button">
+                                    <button class="recommendations__arrow">&rarr;</button>
+                                </span>
+                            </div>
+                            <p class="recommendations__text">Схемы и типографика, работа с текстом</p>
+                        </div>
+                    </li>
+                    <li class="recommendations__item">
+                        <div class="recommendations__card recommendations__card--source">
+                            <img class="recommendations__picture" src="img/source-section.png">
+                            <div class="recommendations__inner-container">
+                                <h3 class="recommendations__name">Исходники</h3>
+                                <span class="recommendations__button">
+                                    <button class="recommendations__arrow">&rarr;</button>
+                                </span>
+                            </div>
+                            <p class="recommendations__text">Исходные макеты для изменения и информации</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <div class="logotype">
             <h2 class="logotype__title">Логотип</h2>
